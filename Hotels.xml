@@ -42,6 +42,7 @@
 	<Hotel id="h4" Rating="4.5">
 		<Name>Omni San Diego Hotel at the Ballpark</Name>
 		<Phone>(619) 231-9111</Phone>
+		<Address>
 			<Number>675</Number>
 			<Street>L Street</Street>
 			<City>San Diego</City>
@@ -137,6 +138,7 @@
 	</Hotel>
 
 </Hotels> 
+
 
 
 
