@@ -2,14 +2,16 @@
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
-	<Hotel id="h1" Rating="4.2">
+	<Hotel Rating="4.2">
 		<Name>Westin</Name>
+		<Name>Westin by Hilton</Name>
 		<Phone>480-968-8885</Phone>
 		<Phone>800-937-8461</Phone>
 		<Address NearestAirport="Sky Harbor">
 			<Number>11</Number>
 			<Street>E 7th St</Street>
 			<City>Tempe</City>
+			<County>Unknown</County>
 			<State>AZ</State>
 			<Zip>85281</Zip>
 		</Address>
@@ -17,7 +19,6 @@
 
 	<Hotel id="h2" Rating ="4.5">
 		<Name>Hyatt Regency</Name>
-		<Phone>415-788-1234</Phone>
 		<Address NearestAirport="SFO">
 			<Number>5</Number>
 			<Street>Embarcadero Center</Street>
@@ -25,6 +26,7 @@
 			<State>CA</State>
 			<Zip>94111</Zip>
 		</Address>
+	</Hotel>
 	</Hotel>
 
 	<Hotel id="h3" Rating="4.8">
@@ -138,6 +140,3 @@
 	</Hotel>
 
 </Hotels> 
-
-
-
