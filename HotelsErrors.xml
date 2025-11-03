@@ -4,7 +4,7 @@
   
   <Hotel Rating="4.2">
     <Name>Westin</Name>
-    <Name>Westin Second Name</Name>
+    <Name>Second Name</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
     <Address NearestAirport="Sky Harbor">
@@ -27,3 +27,4 @@
   </Hotel>
   
   </Hotel>
+
