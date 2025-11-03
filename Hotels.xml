@@ -2,7 +2,7 @@
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
-	<Hotel id="h1" Rating="4.2">
+	<Hotel Rating="4.2">
 		<Name>Westin</Name>
 		<Phone>480-968-8885</Phone>
 		<Phone>800-937-8461</Phone>
@@ -15,7 +15,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel id="h2">
+	<Hotel>
 		<Name>Hyatt Regency</Name>
 		<Phone>415-788-1234</Phone>
 		<Address NearestAirport="SFO">
@@ -27,7 +27,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel id="h3" Rating="4.8">
+	<Hotel Rating="4.8">
 		<Name>Mission Pacific Beach Resort</Name>
 		<Phone>(760) 967-2341</Phone>
 		<Address NearestAirport="SAN">
@@ -39,10 +39,10 @@
 		</Address>
 	</Hotel>
 	
-	<Hotel id="h4" Rating="4.5">
+	<Hotel Rating="4.5">
 		<Name>Omni San Diego Hotel at the Ballpark</Name>
 		<Phone>(619) 231-9111</Phone>
-		<Address>
+		<Address NearestAirport="SAN">
 			<Number>675</Number>
 			<Street>L Street</Street>
 			<City>San Diego</City>
@@ -51,7 +51,7 @@
 		</Address>
 	</Hotel>
 	
-	<Hotel id="h5" Rating="4.5">
+	<Hotel Rating="4.5">
 		<Name>The Beverly Hills Hotel</Name>
 		<Phone>(310) 276-2251</Phone>
 		<Phone>(800) 283-8885</Phone>
@@ -64,7 +64,7 @@
 		</Address>
 	</Hotel>
 	
-	<Hotel id="h6" Rating="4.7">
+	<Hotel Rating="4.7">
 		<Name>The Lodge at Torrey Pines</Name>
 		<Phone>(858) 453-4420</Phone>
 		<Address NearestAirport="SAN">
@@ -76,7 +76,7 @@
 		</Address>
 	</Hotel>
 	
-	<Hotel id="h7" Rating="4.8">
+	<Hotel Rating="4.8">
 		<Name>Montage Laguna Beach</Name>
 		<Phone>(949) 715-6000</Phone>
 		<Address NearestAirport="SNA">
@@ -88,7 +88,7 @@
 		</Address>
 	</Hotel>
 	
-	<Hotel id="h8" Rating="4.6">
+	<Hotel Rating="4.6">
 		<Name>Terranea Resort</Name>
 		<Phone>(866) 547-3066</Phone>
 		<Address NearestAirport="LAX">
@@ -100,7 +100,7 @@
 		</Address>
 	</Hotel>
 	
-	<Hotel id="h9" Rating="4.8">
+	<Hotel Rating="4.8">
 		<Name>Rancho Valencia Resort and Spa</Name>
 		<Phone>(858) 756-1123</Phone>
 		<Phone>(800) 548-3664</Phone>
@@ -113,7 +113,7 @@
 		</Address>
 	</Hotel>
 	
-	<Hotel id="h10" Rating="4.6">
+	<Hotel Rating="4.6">
 		<Name>Shutters on the Beach</Name>
 		<Phone>(310) 458-0030</Phone>
 		<Address NearestAirport="LAX">
@@ -126,6 +126,7 @@
 	</Hotel>
 
 </Hotels> 
+
 
 
 
