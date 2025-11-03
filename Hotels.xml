@@ -2,7 +2,7 @@
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
-	<Hotel Rating="4.2">
+	<Hotel id="h1" Rating="4.2">
 		<Name>Westin</Name>
 		<Phone>480-968-8885</Phone>
 		<Phone>800-937-8461</Phone>
@@ -15,7 +15,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel>
+	<Hotel id="h2">
 		<Name>Hyatt Regency</Name>
 		<Phone>415-788-1234</Phone>
 		<Address NearestAirport="SFO">
@@ -27,7 +27,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel Rating="4.8">
+	<Hotel id="h3" Rating="4.8">
 		<Name>Mission Pacific Beach Resort</Name>
 		<Phone>(760) 967-2341</Phone>
 		<Address NearestAirport="SAN">
@@ -39,7 +39,7 @@
 		</Address>
 	</Hotel>
 	
-	<Hotel Rating="4.5">
+	<Hotel id="h4" Rating="4.5">
 		<Name>Omni San Diego Hotel at the Ballpark</Name>
 		<Phone>(619) 231-9111</Phone>
 		<Address>
@@ -51,7 +51,7 @@
 		</Address>
 	</Hotel>
 	
-	<Hotel Rating="4.5">
+	<Hotel id="h5" Rating="4.5">
 		<Name>The Beverly Hills Hotel</Name>
 		<Phone>(310) 276-2251</Phone>
 		<Phone>(800) 283-8885</Phone>
@@ -64,7 +64,7 @@
 		</Address>
 	</Hotel>
 	
-	<Hotel Rating="4.7">
+	<Hotel id="h6" Rating="4.7">
 		<Name>The Lodge at Torrey Pines</Name>
 		<Phone>(858) 453-4420</Phone>
 		<Address NearestAirport="SAN">
@@ -76,7 +76,7 @@
 		</Address>
 	</Hotel>
 	
-	<Hotel Rating="4.8">
+	<Hotel id="h7" Rating="4.8">
 		<Name>Montage Laguna Beach</Name>
 		<Phone>(949) 715-6000</Phone>
 		<Address NearestAirport="SNA">
@@ -88,7 +88,7 @@
 		</Address>
 	</Hotel>
 	
-	<Hotel Rating="4.6">
+	<Hotel id="h8" Rating="4.6">
 		<Name>Terranea Resort</Name>
 		<Phone>(866) 547-3066</Phone>
 		<Address NearestAirport="LAX">
@@ -100,7 +100,7 @@
 		</Address>
 	</Hotel>
 	
-	<Hotel Rating="4.8">
+	<Hotel id="h9" Rating="4.8">
 		<Name>Rancho Valencia Resort and Spa</Name>
 		<Phone>(858) 756-1123</Phone>
 		<Phone>(800) 548-3664</Phone>
@@ -113,7 +113,7 @@
 		</Address>
 	</Hotel>
 	
-	<Hotel Rating="4.6">
+	<Hotel id="h10" Rating="4.6">
 		<Name>Shutters on the Beach</Name>
 		<Phone>(310) 458-0030</Phone>
 		<Address NearestAirport="LAX">
@@ -124,20 +124,9 @@
 			<Zip>90405</Zip>
 		</Address>
 	</Hotel>
-	
-	<Hotel Rating="4.5">
-		<Name>The Ritz-Carlton Bacara, Santa Barbara</Name>
-		<Phone>(805) 968-0100</Phone>
-		<Address NearestAirport="SBA">
-			<Number>8301</Number>
-			<Street>Hollister Avenue</Street>
-			<City>Santa Barbara</City>
-			<State>CA</State>
-			<Zip>93117</Zip>
-		</Address>
-	</Hotel>
 
 </Hotels> 
+
 
 
 
